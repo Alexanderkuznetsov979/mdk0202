@@ -1,0 +1,65 @@
+article {
+	min-width: 600px;
+	width: 100%;
+	max-width: 800px;
+	border: thin solid #c0d2f2;
+    border-radius: 10px 10px;
+	margin: 2%;
+}
+
+.name {
+	font-family: Helvetica;
+	font-size: 1.6rem;
+	font-weight: 600;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.name:hover {
+	color: #5488af;
+}
+
+.description {
+	text-indent: 1.5rem;
+	text-align: justify;
+	padding: 0 1rem;
+}
+
+.price {
+	text-align: right;
+	font-weight: 600;
+	font-family: Helvetica;
+	padding: 1rem;
+}
+
+.price:after {
+	content: " руб."
+}
+
+.wrap {
+	display: flex;
+}
+
+.wrap figure {
+	margin: 0 .5rem;
+	width: 33%;
+	height: auto;
+}
+
+.wrap img {
+	max-width: 108px;
+	height: auto;
+}
+
+input.submit {
+	font-size: 2rem;
+	font-family: Helvetica;
+	font-weight: bold;
+	width: 100%;
+	padding: 1rem;
+}
+.total{
+	color:navy;
+}

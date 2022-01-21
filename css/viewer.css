@@ -1,0 +1,58 @@
+article {
+	width: 100%;
+	max-width: 800px;
+	min-width: 600px;
+	margin: 0 auto;
+}
+
+article a{
+	text-decoration: none;
+	color: #1B6E8D;
+}
+h1 {
+	font-size: 2rem;
+	font-family: Helvetica;
+	font-weight: 600;
+}
+
+.price {
+	font-family: Arial;
+	font-weight: 600;
+	color: #1B6E8D;
+	text-align: right;
+	font-size: 50px;
+}
+
+.price:after {
+	content: "р.";
+}
+
+figure {
+	width: 400px;
+}
+
+figure img{
+	max-width: 400px;
+    height: auto;
+	margin-top: -40px;
+}
+
+button{
+	background-color: #18b6f1;
+    font-family: fantasy;
+    padding: 10px;
+    margin-left: 80%;
+    margin-top: 10px;
+    font-size: large;
+	text-align: center;
+    letter-spacing: 2px;
+}
+
+blockquote {
+    padding: 1rem;
+	position: absolute;
+    background-color: #9ce4ff85;
+    border-left: 2px solid #3ec4f7;
+    margin: 0rem 80px 20px 400px;
+	border-radius: 0px 30px 30px;
+}

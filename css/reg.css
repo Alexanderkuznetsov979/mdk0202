@@ -1,0 +1,46 @@
+.msg {
+	width: 90%;
+	margin: auto;
+	padding: 1rem;
+	font-family: Helvetica;
+	text-align: justify;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.msg > .closed {
+	font-size: 1.6rem;
+	padding: 0;
+}
+.msg > .closed:hover { cursor: pointer;}
+
+.msg-error {
+	color: #a94442;
+}
+
+.msg-ok {
+	color: #3c763d;
+}
+h3{
+	font-family: Helvetica;
+    color: #273d7d;
+	text-align:center;
+	font-size: 52px;
+}
+
+#reg{
+	height: 380px;
+	align-items: center;
+}
+#reg input {
+    width: 90%;
+    height: 45px;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    background-color: rgb(232, 251, 255);
+}
+
+#reg input[type="submit"] {
+	padding: .5rem;
+}

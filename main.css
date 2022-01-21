@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 20px;
+}
+body {
+	background-image: url(img/fon.jpg);
+	background-attachment: fixed;
+	min-width: 800px;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+body > header {
+	background-color:white;
+    height: 90px; 
+	font-family: Helvetica;
+    display: flex; 
+    align-items: stretch;
+	border: 1.5px solid black;
+	border-radius:10px 10px 10px 10px;
+}
+
+body > header a{
+	text-decoration: none;
+	margin-left:40px;
+	color:red;
+}
+
+body > header h1{
+	text-decoration: none;
+	color:white;
+	font-size: 25pt;
+}
+h2{
+	font-family: Helvetica;
+	color:#273d7d;
+}
+h4{color:red;}
+
+h3{
+	font-family: Helvetica;
+    color: #273d7d;
+	text-align:center;
+	font-size: 52px;
+}
+.pricinf{
+	text-align: left;
+	font-weight: 600;
+	font-family: Helvetica;
+	padding: 1rem;
+	background-color: #4ccdff;
+}
+
+#lideri{
+	display:flex;
+	flex-direction:row;
+}
+.liderprod{
+	border: 1.5px solid rgb(220, 220, 220);
+    width: 380px;
+	margin-right:5px;
+	text-align:center;
+}
+.liderprod img{
+	width: 95%;
+	height: auto;
+}
+
+.liderprod a{
+	text-decoration:none;
+	text-align:center;
+	color: black;
+}
+
+.ctrl-panel {
+    display: flex; 
+    margin-top: 20px;
+    position: relative;
+    
+    flex-direction: row; 
+    justify-content: space-around;
+	text-decoration: none;
+	color: white;
+}
+
+.ctrl-panel a:hover {color: navy;}
+
+.ctrl-panel li {
+	list-style: none;
+	position: relative;
+
+	}
+
+	
+.ctrl-panel1 {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    flex-direction: row;
+	left:15%;
+}
+
+nav {
+		
+	width:160px;
+}
+
+nav ul {
+	display: flex;
+    padding: 4px 0px 4px 0px;
+	justify-content: space-around;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav a {
+    display: block;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: #007596;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+	border:1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin: -280px 3px 0px 8.2rem;
+}
+
+#reg {
+	width: 100%;
+	max-width: 600px;
+	min-width: 480px;
+	text-align: center;
+	margin: auto;
+}
+
+footer{
+    border: 1px solid #120e52;
+	border-radius:10px 10px 10px 10px;
+	margin-top:3%;
+    padding: 8px;
+    background-color: #00709B;
+    color: white;
+	text-align: center;
+}
+legend{
+	font-size:45px;
+	letter-spacing: 5px;
+	text-align:center;
+}
+/* реклама*/
+.slide {
+    height: 430px;
+    position: relative;
+    text-align: center;
+    margin: -20px -14px 0px -1rem;
+    }
+	.slide  input {
+    display: none;
+    }
+
+    .slide  input + label {
+     display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    background: #4a79ffa8;
+    border: 2px solid #8adfff82;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    margin-right: 4px;
+    top: 90%;
+    transition: background 0.8s ease-out 0s;
+    }
+
+    .slide  input + label:hover {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .slide  input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	
+    .slide  div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	
+    .slide  div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    #slid img {
+    width:100%;
+	height:430px;
+	border-radius: 10px;
+    border-style: outset;
+    border-color: #9ce4ff;
+    }
+	
+    .slide  input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	
+    .slide  div  p {
+        position: absolute;
+		font-size:18px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 3px #222;
+    }
