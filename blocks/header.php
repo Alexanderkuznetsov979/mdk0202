@@ -28,7 +28,7 @@
 			<?php default: ?>
 			   <li>
 				<a href="reg.php">Регистрация</a><br>
-				<a href="sign-up.php">Вход</a>
+				<a href="index.php">Вход</a>
 				</li>
 		<?php endswitch; ?>
 	</ul>

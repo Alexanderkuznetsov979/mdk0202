@@ -12,6 +12,7 @@
 <head>
 	<?php require_once "blocks/head.php"; ?>
 	<link rel="stylesheet" href="css/trash.css">
+	<script src="js/delet.js"></script>
 </head>
 <body>
 	<?php
@@ -47,6 +48,7 @@
 							<p class="description">$decsription</p>
 							</div>
 							<footer class="price">$price</footer>
+							
 						</article>
 _OUT;
 
@@ -54,6 +56,7 @@ _OUT;
 					
 				}
 					echo <<<_OUT
+					
 						<div class="total">
 							Итого: $total_price рублей
 						</div>
